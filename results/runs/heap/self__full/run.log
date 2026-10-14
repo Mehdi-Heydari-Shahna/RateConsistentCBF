@@ -1,0 +1,31 @@
+self__full t=  0.00s [ 0] hold                           err=0.0000 soil=    0kg F=  0.0kN hmin= 0.036 act= 0 nu=    0.00 gap= 0.0um wall=   0s
+self__full t=  2.00s [ 1] reach out                      err=0.0006 soil=    0kg F=  0.0kN hmin= 0.036 act= 0 nu=    0.13 gap= 1.6um wall=  14s
+self__full t=  4.00s [ 1] reach out                      err=0.0007 soil=    0kg F=  0.0kN hmin= 0.054 act= 0 nu=    0.02 gap= 1.7um wall=  28s
+self__full t=  6.00s [ 2] turn to the left front wheel   err=0.0006 soil=    0kg F=  0.0kN hmin= 0.061 act= 0 nu=    0.14 gap= 1.7um wall=  42s
+self__full t=  8.00s [ 2] turn to the left front wheel   err=0.0016 soil=    0kg F=  0.0kN hmin= 0.061 act= 0 nu=    0.38 gap= 1.7um wall=  55s
+self__full t= 10.00s [ 3] lower                          err=0.0010 soil=    0kg F=  0.0kN hmin= 0.068 act= 0 nu=    0.10 gap= 1.7um wall=  69s
+self__full t= 12.00s [ 4] pull in over the wheel         err=0.0019 soil=    0kg F=  0.0kN hmin= 0.088 act= 0 nu=    0.36 gap= 1.7um wall=  82s
+self__full t= 14.00s [ 4] pull in over the wheel         err=0.2567 soil=    0kg F=  0.0kN hmin= 0.162 act= 0 nu=    0.32 gap= 1.8um wall=  96s
+self__full t= 16.00s [ 5] hold at left wheel             err=0.2632 soil=    0kg F=  0.0kN hmin= 0.164 act= 0 nu=    0.01 gap= 1.8um wall= 110s
+self__full t= 18.00s [ 6] back out                       err=0.2261 soil=    0kg F=  0.0kN hmin= 0.163 act= 0 nu=    2.71 gap= 1.8um wall= 124s
+self__full t= 20.00s [ 6] back out                       err=0.0013 soil=    0kg F=  0.0kN hmin= 0.096 act= 0 nu=    1.18 gap= 1.7um wall= 138s
+self__full t= 22.00s [ 6] back out                       err=0.0012 soil=    0kg F=  0.0kN hmin= 0.069 act= 0 nu=    0.07 gap= 1.6um wall= 152s
+self__full t= 24.00s [ 7] lift                           err=0.0012 soil=    0kg F=  0.0kN hmin= 0.062 act= 0 nu=    0.24 gap= 1.6um wall= 165s
+self__full t= 26.00s [ 8] turn to the front              err=0.0011 soil=    0kg F=  0.0kN hmin= 0.061 act= 0 nu=    0.61 gap= 1.8um wall= 179s
+self__full t= 28.00s [ 8] turn to the front              err=0.0018 soil=    0kg F=  0.0kN hmin= 0.061 act= 0 nu=    0.50 gap= 1.7um wall= 193s
+self__full t= 30.00s [ 9] to low pose in front           err=0.0026 soil=    0kg F=  0.0kN hmin= 0.084 act= 0 nu=    0.30 gap= 1.7um wall= 206s
+self__full t= 32.00s [10] turn into right front wheel    err=0.0033 soil=    0kg F=  0.0kN hmin= 0.122 act= 0 nu=    0.45 gap= 1.6um wall= 220s
+self__full t= 34.00s [10] turn into right front wheel    err=0.1451 soil=    0kg F=  0.0kN hmin= 0.094 act= 1 nu=    0.57 gap= 1.6um wall= 233s
+self__full t= 36.00s [11] hold at right wheel            err=0.2524 soil=    0kg F=  0.0kN hmin= 0.165 act= 0 nu=    0.64 gap= 1.6um wall= 247s
+self__full t= 38.00s [12] turn back                      err=0.2530 soil=    0kg F=  0.0kN hmin= 0.164 act= 0 nu=    0.04 gap= 1.6um wall= 260s
+self__full t= 40.00s [12] turn back                      err=0.0447 soil=    0kg F=  0.0kN hmin= 0.095 act= 0 nu=    0.14 gap= 1.6um wall= 274s
+self__full t= 42.00s [13] hold end                       err=0.0007 soil=    0kg F=  0.0kN hmin= 0.121 act= 0 nu=    0.12 gap= 1.6um wall= 288s
+Saved <RCX_TAC>/results/heap/hazards/self__full  status=COMPLETED  violated=none  wall=293s
+  contacts ['LF', 'RF', 'LH', 'RH'] normal min (kN) [34.7 19.1 19.3 15.6] ratio max [0.18 0.22 0.17 0.16] slip max (mm) [0.1 0.1 0.2 0.2] contact rows active 0.005 model error rms (kN) [[0.09, 0.15, 0.12], [0.08, 0.05, 0.11], [0.09, 0.15, 0.07], [0.14, 0.16, 0.05]]
+  class h_min: {'efence': 0.6633, 'joint_limit': 0.3581, 'self_collision': 0.0932, 'stroke': 0.0356, 'support': 0.7872}
+  class psi1_min: {'efence': 3.9297, 'joint_limit': 2.8641, 'self_collision': 0.5403, 'stroke': 0.285, 'support': 1.5165}
+  class sample-mean row function min: {'efence': 61.613, 'joint_limit': 57.28, 'self_collision': 8.564, 'stroke': 5.689, 'support': 5.982}
+  tracking RMS: [0.0134 0.0082 0.0035 0.0084 0.0023 0.0027 0.0892 0.0136 0.0319 0.004
+ 0.1072 0.004  0.0095]  interventions: 0.109  infeasible: 0  velocity relaxed: 0  storage max: 36.8  standoff max: 0.228
+  assumptions: force-model coverage 1.0 (during intervention 1.0 ) row-residual coverage 1.0 max 0.17  load coverage 1.0 (during intervention 1.0 ) late rows 0  psi2 after active min 8.561
+  storage energy J: {'effort_mismatch': (506.8, -98.5), 'command_deviation': (31.8, -0.1), 'barrier_rows': (26.7, -0.1), 'effort_bounds': (4.7, 0.0), 'contact_rows': (0.4, 0.0)} dissipated 1275.6  ledger residual 0.6 J (relative 0.0005 )

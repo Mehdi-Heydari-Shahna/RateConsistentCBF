@@ -1,0 +1,8 @@
+# Table I: independent numerical checks of the analytical identities and inequalities; regenerated and printed values
+check,regenerated_counts,komatsu_or_max_excess,heap,paper_komatsu_or_max_excess,paper_heap
+"(2), 6 and 4 states",6 and 4 states,3.36e-11,1.24e-10,3.36e-11,1.24e-10
+Storage balance,,6.68e-10,2.67e-09,6.68e-10,2.67e-9
+"Constraint identity, 544 and 715 rows",544 and 715 rows,6.44e-11,1.75e-10,6.44e-11,1.75e-10
+"Port (a): 29 467 instances, six rates","29467 instances, 6 rates",4.11e-15,,4.1e-15,
+Port (b): 18 917 dependent-gradient instances,18917 instances,3.49e-12,,3.5e-12,
+"Storage: 20 000 instances, three rates","20000 instances, 60000 evaluations",6.77e-13,,6.8e-13,

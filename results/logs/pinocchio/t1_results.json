@@ -1,0 +1,24 @@
+{
+ "instances": 40000,
+ "counted_instances": 29467,
+ "left_out_ill_conditioned": 70,
+ "rates_per_instance": 6,
+ "port_a_largest_relative_excess": 4.107825191113079e-15,
+ "fine_bound_largest_relative_excess": 1.3906542584152248e-11,
+ "identity_largest_relative_error": 2.2113331570958657e-10,
+ "counts": {
+  "nobounds": 20421,
+  "nobounds_active": 16409,
+  "bounds": 9046
+ },
+ "active_rows_histogram": [
+  5673,
+  9831,
+  7166,
+  4203,
+  1719,
+  556,
+  215,
+  104
+ ]
+}

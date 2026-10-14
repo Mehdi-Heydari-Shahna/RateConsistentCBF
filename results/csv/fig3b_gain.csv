@@ -1,0 +1,5 @@
+# Fig. 3(b): alpha2 = 16, max |s| over periods 3-8 (t15_onedof.py)
+k_per_s,first_order_peak,consistent_peak
+12,0.0868531932,0
+30,0.0868609419,0
+100,0.0868561552,0

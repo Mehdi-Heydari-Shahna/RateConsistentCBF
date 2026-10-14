@@ -1,0 +1,338 @@
+{
+ "regenerated": {
+  "komatsu_onset_ratio_range": [
+   1.061335645140032,
+   1.0642404893217094
+  ],
+  "komatsu_onset_activations": 6,
+  "heap_onset_ratio_range": [
+   1.0511420058173029,
+   1.144935361740969
+  ],
+  "heap_onset_activations": 6,
+  "first_layer_only_onset": [
+   28.354257984320714,
+   28.52446038880553
+  ],
+  "baseline_onset": [
+   15.945496060182464,
+   28.465770304664467
+  ],
+  "onset_reduction_factor_consistent": [
+   3.3373445992330826,
+   3.6188149008020525
+  ],
+  "port_energy_baseline_to_consistent": [
+   [
+    1835.3650803088187,
+    0.006298202169531526
+   ],
+   [
+    489.66835270888936,
+    4.730188283001609
+   ]
+  ],
+  "stroke_clearance_consistent_mm": [
+   2.813363611047559,
+   19.990810200801068
+  ],
+  "stroke_clearance_baseline_mm": [
+   2.8210835156046166,
+   20.0717695904733
+  ],
+  "storage_peaks_beta40_consistent_baseline": [
+   [
+    36.76757132344888,
+    63.403136048390174
+   ],
+   [
+    35.2685476229136,
+    54.76990948498897
+   ],
+   [
+    400.5095807484722,
+    405.1500395189587
+   ]
+  ],
+  "onset_factor_beta40_to_16": [
+   1.794776966425739,
+   1.431573982321509
+  ],
+  "port_factor_beta40_to_16": [
+   53910.12486859695,
+   27.65358063768695
+  ],
+  "raw_feedforward_komatsu": {
+   "S_max": 173.45976024750294,
+   "onset": 12.66875226932568,
+   "port": 1005.9046289179396
+  },
+  "conditioned_storage_peaks": [
+   400.5093989608069,
+   447.3631961502024
+  ],
+  "conditioned_energies": {
+   "komatsu": {
+    "E_port": 1.2240998984814997,
+    "E_feedforward": 9132.246478578818,
+    "E_force_loops": 4135.873878613423,
+    "E_other": 530.9735110475144
+   },
+   "heap": {
+    "E_port": 54.66150191509507,
+    "E_feedforward": 6876.3235151882445,
+    "E_force_loops": 6293.1181046345855,
+    "E_other": 877.3569815523099
+   }
+  },
+  "baseline_onset_change_k2_to_k24_percent": -32.50974285245386,
+  "baseline_port_change_k2_to_k24_percent": 59.32642832181734,
+  "consistent_onset_reduction_factor_over_sweep": [
+   3.2277478296400584,
+   3.538536907591859
+  ],
+  "consistent_port_energy_by_gain": {
+   "2": 5.02935115731038,
+   "4": 0.0020324985600559684,
+   "6": 0.004235537104760711,
+   "12": 0.006298202169531526,
+   "24": 0.0004172334706183178
+  },
+  "baseline_port_energy_by_gain": {
+   "2": 1464.6634338311997,
+   "4": 1509.5547272820113,
+   "6": 1582.674649926337,
+   "12": 1835.3650803088187,
+   "24": 2333.595936058935
+  },
+  "payload_onset_consistent_vs_baseline": [
+   6.5862375056246085,
+   17.689480773921687
+  ],
+  "payload_port_consistent_vs_baseline": [
+   0.710563810932665,
+   2029.3277331874297
+  ],
+  "effort_layer_alone": {
+   "komatsu": {
+    "S_max": 9563.494817809327,
+    "max_s": 138.30036021507195,
+    "onset": 138.30036021507195,
+    "release": 134.2675978480476,
+    "clearance_mm": 2.993761901295966,
+    "violated": []
+   },
+   "heap": {
+    "S_max": 19138.52201603457,
+    "max_s": 195.58549940608472,
+    "onset": 195.58549940608472,
+    "release": 173.1820003068929,
+    "clearance_mm": 20.235617606420007,
+    "violated": []
+   }
+  },
+  "first_layer_alone_k2_clearance_mm": -0.37435055711310117,
+  "two_layer_clearance_min_mm_over_gain_and_payload": 2.8131863978173577,
+  "binding_percent_consistent": [
+   34.545870510180734,
+   34.275618374558306
+  ],
+  "binding_percent_baseline": [
+   10.249370853351635,
+   12.325919767200165
+  ],
+  "mean_computation_ms_baseline_consistent": {
+   "komatsu": [
+    17.097027245893397,
+    17.193293321344356
+   ],
+   "heap": [
+    31.803407726785526,
+    31.585512689026444
+   ]
+  },
+  "workspace_port_reduction_factors": [
+   14.179404059769311,
+   188.65176234122498
+  ],
+  "workspace_storage_reduction_factors": [
+   2.148467793291193,
+   7.912612911143127
+  ],
+  "workspace_clearance_difference_max_mm": 0.6930575760042501,
+  "workspace_rms_proposed_not_larger": true,
+  "mission_durations_s": {
+   "komatsu_full": 397.1599999975203,
+   "komatsu_consistent": 397.1599999975203,
+   "heap_full": 405.99999999731125,
+   "heap_consistent": 405.99999999731125
+  },
+  "mission_min_clearance_mm": {
+   "komatsu_full": 35.30651691210224,
+   "komatsu_consistent": 35.304366720132705,
+   "heap_full": 31.964238039782657,
+   "heap_consistent": 31.961074776162057
+  },
+  "mission_storage_reduction_factors": [
+   1.4129014927761623,
+   1.5721505376201201
+  ],
+  "mission_port_reduction_factors": [
+   5.860656170001889,
+   9.09308537239373
+  ],
+  "mission_excavated_volume_difference_percent": [
+   0.24632649103049076,
+   1.2141128452534566
+  ],
+  "mission_status": {
+   "komatsu_full": "COMPLETED",
+   "komatsu_consistent": "COMPLETED",
+   "heap_full": "COMPLETED",
+   "heap_consistent": "COMPLETED"
+  },
+  "qp_infeasible_samples_in_retained_runs": 0
+ },
+ "paper": {
+  "komatsu_onset_ratio_range": [
+   1.061,
+   1.064
+  ],
+  "heap_onset_ratio_range": [
+   1.051,
+   1.145
+  ],
+  "first_layer_only_onset": [
+   28.4,
+   28.5
+  ],
+  "baseline_onset": [
+   15.9,
+   28.5
+  ],
+  "onset_reduction_factor_consistent": [
+   3.3,
+   3.6
+  ],
+  "port_energy_baseline_to_consistent": [
+   [
+    1835,
+    0.0063
+   ],
+   [
+    490,
+    4.73
+   ]
+  ],
+  "stroke_clearance_consistent_mm": [
+   2.8,
+   20.0
+  ],
+  "storage_peaks_beta40_consistent_baseline": [
+   [
+    36.8,
+    63.4
+   ],
+   [
+    35.3,
+    54.8
+   ],
+   [
+    401,
+    405
+   ]
+  ],
+  "onset_factor_beta40_to_16": [
+   1.8,
+   1.4
+  ],
+  "port_factor_beta40_to_16": [
+   54000.0,
+   28
+  ],
+  "raw_feedforward_komatsu": {
+   "S_max": 173,
+   "onset": 12.7,
+   "port": 1006
+  },
+  "conditioned_storage_peaks": [
+   401,
+   447
+  ],
+  "baseline_onset_change_k2_to_k24_percent": -33,
+  "baseline_port_change_k2_to_k24_percent": 59,
+  "consistent_onset_reduction_factor_over_sweep": [
+   3.2,
+   3.5
+  ],
+  "consistent_port_energy_by_gain": {
+   "2": 5.03,
+   "4": "<0.01",
+   "6": "<0.01",
+   "12": "<0.01",
+   "24": "<0.01"
+  },
+  "baseline_port_energy_by_gain": {
+   "2": 1465
+  },
+  "payload_onset_consistent_vs_baseline": [
+   6.59,
+   17.7
+  ],
+  "payload_port_consistent_vs_baseline": [
+   0.711,
+   2029
+  ],
+  "effort_layer_alone": "peaks 138 and 196 sqrt(J); limits maintained",
+  "first_layer_alone_k2_clearance_mm": -0.4,
+  "binding_percent_consistent": [
+   34.3,
+   34.5
+  ],
+  "binding_percent_baseline": [
+   10.2,
+   12.3
+  ],
+  "mean_computation_ms_baseline_consistent": {
+   "komatsu": [
+    11.8,
+    11.7
+   ],
+   "heap": [
+    21.8,
+    22.0
+   ]
+  },
+  "workspace_port_reduction_factors": [
+   14,
+   190
+  ],
+  "workspace_storage_reduction_factors": [
+   2.1,
+   7.9
+  ],
+  "workspace_clearance_difference_max_mm": 0.7,
+  "workspace_rms_proposed_not_larger": true,
+  "mission_durations_s": {
+   "komatsu": 397,
+   "heap": 406
+  },
+  "mission_min_clearance_mm": {
+   "komatsu": 35.3,
+   "heap": 32.0
+  },
+  "mission_storage_reduction_factors": [
+   1.4,
+   1.6
+  ],
+  "mission_port_reduction_factors": [
+   5.9,
+   9.1
+  ],
+  "mission_excavated_volume_difference_percent": [
+   0.25,
+   1.2
+  ],
+  "qp_infeasible_samples_in_retained_runs": 0
+ }
+}

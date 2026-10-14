@@ -1,0 +1,34 @@
+cycles__accel_b40 t=  0.00s [ 0] hold                           err=0.0000 soil=    0kg F=  0.0kN hmin= 0.036 act= 0 nu=    0.00 gap= 0.0um wall=   0s
+cycles__accel_b40 t=  2.00s [ 1] to pose A                      err=0.0052 soil=    0kg F=  0.0kN hmin= 0.041 act= 0 nu=    1.56 gap= 1.8um wall=  13s
+cycles__accel_b40 t=  4.00s [ 1] to pose A                      err=0.0023 soil=    0kg F=  0.0kN hmin= 0.189 act= 0 nu=    0.30 gap= 2.0um wall=  27s
+cycles__accel_b40 t=  6.00s [ 2] cycle 1: go                    err=0.0658 soil=    0kg F=  0.0kN hmin= 0.026 act= 0 nu=    3.20 gap= 1.8um wall=  40s
+cycles__accel_b40 t=  8.00s [ 4] cycle 1: back                  err=0.2182 soil=    0kg F=  0.0kN hmin= 0.020 act= 1 nu=    0.01 gap= 2.3um wall=  52s
+cycles__accel_b40 t= 10.00s [ 4] cycle 1: back                  err=0.0017 soil=    0kg F=  0.0kN hmin= 0.093 act= 0 nu=    0.61 gap= 2.8um wall=  65s
+cycles__accel_b40 t= 12.00s [ 5] cycle 2: go                    err=0.0014 soil=    0kg F=  0.0kN hmin= 0.172 act= 0 nu=    0.68 gap= 3.1um wall=  78s
+cycles__accel_b40 t= 14.00s [ 5] cycle 2: go                    err=0.2265 soil=    0kg F=  0.0kN hmin= 0.020 act= 1 nu=    0.01 gap= 2.3um wall=  91s
+cycles__accel_b40 t= 16.00s [ 7] cycle 2: back                  err=0.1054 soil=    0kg F=  0.0kN hmin= 0.020 act= 1 nu=    0.00 gap= 2.3um wall= 103s
+cycles__accel_b40 t= 18.00s [ 7] cycle 2: back                  err=0.0006 soil=    0kg F=  0.0kN hmin= 0.169 act= 0 nu=    0.05 gap= 2.6um wall= 116s
+cycles__accel_b40 t= 20.00s [ 8] cycle 3: go                    err=0.0105 soil=    0kg F=  0.0kN hmin= 0.036 act= 0 nu=   14.65 gap= 1.6um wall= 129s
+cycles__accel_b40 t= 22.00s [10] cycle 3: back                  err=0.2245 soil=    0kg F=  0.0kN hmin= 0.020 act= 1 nu=    0.02 gap= 2.3um wall= 141s
+cycles__accel_b40 t= 24.00s [10] cycle 3: back                  err=0.0019 soil=    0kg F=  0.0kN hmin= 0.070 act= 0 nu=    0.86 gap= 2.7um wall= 154s
+cycles__accel_b40 t= 26.00s [11] cycle 4: go                    err=0.0010 soil=    0kg F=  0.0kN hmin= 0.180 act= 0 nu=    0.79 gap= 2.8um wall= 167s
+cycles__accel_b40 t= 28.00s [11] cycle 4: go                    err=0.2194 soil=    0kg F=  0.0kN hmin= 0.021 act= 1 nu=    0.04 gap= 2.3um wall= 180s
+cycles__accel_b40 t= 30.00s [13] cycle 4: back                  err=0.1428 soil=    0kg F=  0.0kN hmin= 0.020 act= 1 nu=    0.00 gap= 2.3um wall= 192s
+cycles__accel_b40 t= 32.00s [13] cycle 4: back                  err=0.0009 soil=    0kg F=  0.0kN hmin= 0.158 act= 0 nu=    0.12 gap= 2.7um wall= 205s
+cycles__accel_b40 t= 34.00s [14] cycle 5: go                    err=0.0017 soil=    0kg F=  0.0kN hmin= 0.071 act= 0 nu=    1.06 gap= 3.5um wall= 219s
+cycles__accel_b40 t= 36.00s [16] cycle 5: back                  err=0.2263 soil=    0kg F=  0.0kN hmin= 0.020 act= 1 nu=    0.03 gap= 2.3um wall= 231s
+cycles__accel_b40 t= 38.00s [16] cycle 5: back                  err=0.0019 soil=    0kg F=  0.0kN hmin= 0.046 act= 0 nu=    1.36 gap= 2.5um wall= 244s
+cycles__accel_b40 t= 40.00s [17] cycle 6: go                    err=0.0004 soil=    0kg F=  0.0kN hmin= 0.181 act= 0 nu=    0.09 gap= 2.3um wall= 257s
+cycles__accel_b40 t= 42.00s [17] cycle 6: go                    err=0.1969 soil=    0kg F=  0.0kN hmin= 0.021 act= 0 nu=    0.14 gap= 2.3um wall= 270s
+cycles__accel_b40 t= 44.00s [19] cycle 6: back                  err=0.1734 soil=    0kg F=  0.0kN hmin= 0.020 act= 1 nu=    0.00 gap= 2.3um wall= 282s
+cycles__accel_b40 t= 46.00s [19] cycle 6: back                  err=0.0011 soil=    0kg F=  0.0kN hmin= 0.144 act= 0 nu=    0.21 gap= 2.8um wall= 295s
+cycles__accel_b40 t= 48.00s [20] hold end                       err=0.0006 soil=    0kg F=  0.0kN hmin= 0.182 act= 0 nu=    0.10 gap= 2.3um wall= 308s
+Saved <RCX_TAC>/results/heap/hazards/cycles__accel_b40  status=COMPLETED  violated=none  wall=309s
+  contacts ['LF', 'RF', 'LH', 'RH'] normal min (kN) [ 7.5 24.4 24.6 16.8] ratio max [0.28 0.34 0.19 0.25] slip max (mm) [0.2 0.1 0.3 0.3] contact rows active 0.012 model error rms (kN) [[0.05, 0.06, 0.13], [0.02, 0.01, 0.02], [0.02, 0.03, 0.02], [0.04, 0.06, 0.1]]
+  class h_min: {'joint_limit': 0.3861, 'self_collision': 0.6191, 'stroke': 0.02, 'support': 0.8891}
+  class psi1_min: {'joint_limit': 3.0825, 'self_collision': 3.6485, 'stroke': 0.1547, 'support': 1.7746}
+  class sample-mean row function min: {'joint_limit': 61.134, 'self_collision': 58.154, 'stroke': 2.833, 'support': 7.095}
+  tracking RMS: [4.000e-04 4.000e-04 1.000e-04 1.000e-04 5.000e-04 5.000e-04 1.000e-04
+ 1.199e-01 4.000e-04 1.400e-03 6.000e-04 3.000e-04 0.000e+00]  interventions: 0.341  infeasible: 0  velocity relaxed: 0  storage max: 63.4  standoff max: 0.0225
+  assumptions: force-model coverage 0.9936 (during intervention 0.9893 ) row-residual coverage 1.0 max 0.7  load coverage 1.0 (during intervention 1.0 ) late rows 0  psi2 after active min 2.65
+  storage energy J: {'effort_mismatch': (1829.9, -339.8), 'command_deviation': (130.8, -25.8), 'barrier_rows': (119.6, -25.8), 'effort_bounds': (0.0, 0.0), 'contact_rows': (11.2, 0.0)} dissipated 1733.4  ledger residual 5.9 J (relative 0.0034 )

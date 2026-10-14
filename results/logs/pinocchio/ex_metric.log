@@ -1,0 +1,4 @@
+Remark 4, euclidean metric: Delta [-4.4  4.4], P_f = 48.4000, |s|_M^2 = 2.0000, S_dot = 24.4000 = +12.200 |s|_M^2
+Remark 4, kinetic   metric: Delta [-8.7129  0.0871], P_f = 9.5842, |s|_M^2 = 2.0000, S_dot = -14.4158 = -7.208 |s|_M^2
+Remark 5, K_nonuniform: psi1 = 1.00, value at phi_r = -4.22, Delta = [4.22 0.  ], P_f = 4.22, s^T K s = 3.33, |s|^2 = 3.89, S_dot = 0.890 = +0.229 |s|_M^2
+Remark 5, K_12I       : psi1 = 1.00, value at phi_r = -10.00, Delta = [10.  0.], P_f = 10.00, s^T K s = 46.68, |s|^2 = 3.89, S_dot = -36.680 = -9.429 |s|_M^2

@@ -1,0 +1,17 @@
+Part 1: 20000 instances (0 infeasible ones skipped); a row binding in 13549 (19955 binding rows); state outside the safe set in 13173
+   (B) balance from the plant against the formula, largest relative difference 3.6e-12
+   (R) row identity with standoff rate, margin and two load estimates, largest relative difference 3.3e-12
+   (P) P_f = sum lam_i (psi1s_i - zs_i), largest relative difference 3.4e-12
+   (M) largest (S' - bound) / (1 + |S'|) over 60000 evaluations: +6.8e-13   (equality to 1e-6 in 694 evaluations; residual of the conditions of the projections 2.2e-13)
+Part 2: 6R arm; the hold of run_toy.py (reference leaves the safe set) is disturbed at t = 1.5 s by a velocity jump that makes the
+        first-order functions of the held rows negative (state outside the safe set); exact model afterwards
+   k12: rows ['hi3', 'plane'] set to psi1s = -0.3 (rad/s, m/s); smallest shifted barrier values afterwards: hi3 -8.11e-03 rad, plane -9.93e-03 m (smallest over all rows -9.93e-03, row plane); [psi1s]^- minus its bound e^(-alpha2 t)[psi1s(0)]^-: at most +1.5e-10; psi1s < -1e-9 until t = 1.219 s
+        (M) at 450 samples with a binding row (450 with a negative psi1s on a binding row): largest (S' - bound)/max(|S'|, |bound|) for beta = min alpha2: -8.4e-02, half of it: -3.4e-01, beta = 0: -6.7e-01;  without the term eta (beta = half): -1.7e-01;  S: 1.157e-01 -> 5.9e-26
+   k30: rows ['hi3', 'plane'] set to psi1s = -0.3 (rad/s, m/s); smallest shifted barrier values afterwards: hi3 -6.14e-03 rad, plane -6.14e-03 m (smallest over all rows -6.14e-03, row plane); [psi1s]^- minus its bound e^(-alpha2 t)[psi1s(0)]^-: at most +5.6e-15; psi1s < -1e-9 until t = 0.650 s
+        (M) at 0 samples with a binding row (0 with a negative psi1s on a binding row): largest (S' - bound)/max(|S'|, |bound|) for beta = min alpha2: -inf, half of it: -inf, beta = 0: -inf;  without the term eta (beta = half): -inf;  S: 1.157e-01 -> 6.7e-25
+   k12_large: rows ['hi3', 'plane'] set to psi1s = -1 (rad/s, m/s); smallest shifted barrier values afterwards: hi3 -2.71e-02 rad, plane -3.42e-02 m (smallest over all rows -3.42e-02, row plane); [psi1s]^- minus its bound e^(-alpha2 t)[psi1s(0)]^-: at most +5.0e-10; psi1s < -1e-9 until t = 1.295 s
+        (M) at 450 samples with a binding row (450 with a negative psi1s on a binding row): largest (S' - bound)/max(|S'|, |bound|) for beta = min alpha2: -8.6e-02, half of it: -3.4e-01, beta = 0: -6.9e-01;  without the term eta (beta = half): -1.7e-01;  S: 1.286e+00 -> 6.0e-27
+Part 3: 20000 instances with zs >= 0 and a binding row with psi1s < 0 (12193 with one binding row), three rates each:
+   without the term eta the inequality (M) fails in 39 evaluations (0 of them with one binding row), largest relative excess +1.08e+00; with the term: largest (S' - bound)/max(|S'|,|bound|) = -4.1e-07
+   first failure: {'rows': 3, 'psi1s': [-1.5420872931183067, 2.402999943326298, 1.9227558372906486], 'zs': [-2.220446049250313e-16, 0.4708872516702235, -5.342948306008566e-16], 'alpha2': [24.421406095393426, 11.336440039184838, 18.68857883042248], 'beta': 11.336440039184838, 'k': 27.61230213730236, 'gap': 0.01612950653647464}
+Part 4: w = [-2.0, 1.0], psi1s = [2.0, -1.0], row values of the VDC law [-16.0, -8.0], multipliers [62.22, 57.78], correction [16.0, 34.67], P_f = 66.67;  (k - beta)|s|^2 = 40.0;  eta = [0.0, 16.0], d_A[eta] = 26.67, bound with the sign defect 99.6

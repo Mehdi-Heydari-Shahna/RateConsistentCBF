@@ -1,0 +1,23 @@
+self__full t=  0.00s [ 0] hold                           err=0.0000 soil=    0kg F=  0.0kN hmin= 0.035 act= 0 nu=    0.00 gap= 0.0um wall=   1s
+self__full t=  2.00s [ 1] to start A                     err=0.0002 soil=    0kg F=  0.0kN hmin= 0.036 act= 0 nu=    0.04 gap= 1.5um wall=  10s
+self__full t=  4.00s [ 1] to start A                     err=0.0002 soil=    0kg F=  0.0kN hmin= 0.057 act= 0 nu=    0.02 gap= 1.6um wall=  20s
+self__full t=  6.00s [ 2] lower beside left track        err=0.0004 soil=    0kg F=  0.0kN hmin= 0.063 act= 0 nu=    0.04 gap= 1.4um wall=  29s
+self__full t=  8.00s [ 2] lower beside left track        err=0.0785 soil=    0kg F=  0.0kN hmin= 0.067 act= 0 nu=    0.63 gap= 1.5um wall=  39s
+self__full t= 10.00s [ 3] hold beside track              err=0.0839 soil=    0kg F=  0.0kN hmin= 0.068 act= 4 nu=    0.00 gap= 1.4um wall=  48s
+self__full t= 12.00s [ 4] back A                         err=0.0669 soil=    0kg F=  0.0kN hmin= 0.067 act= 0 nu=    0.43 gap= 1.5um wall=  57s
+self__full t= 14.00s [ 4] back A                         err=0.0001 soil=    0kg F=  0.0kN hmin= 0.063 act= 0 nu=    0.01 gap= 1.5um wall=  66s
+self__full t= 16.00s [ 5] to low pose in front           err=0.0003 soil=    0kg F=  0.0kN hmin= 0.063 act= 0 nu=    0.08 gap= 1.5um wall=  76s
+self__full t= 18.00s [ 5] to low pose in front           err=0.0001 soil=    0kg F=  0.0kN hmin= 0.060 act= 0 nu=    0.15 gap= 1.5um wall=  86s
+self__full t= 20.00s [ 6] slew towards left track        err=0.0026 soil=    0kg F=  0.0kN hmin= 0.060 act= 1 nu=   10.90 gap= 1.4um wall=  97s
+self__full t= 22.00s [ 6] slew towards left track        err=0.1393 soil=    0kg F=  0.0kN hmin= 0.041 act= 0 nu=    3.68 gap= 1.4um wall= 108s
+self__full t= 24.00s [ 7] hold at track                  err=0.0839 soil=    0kg F=  0.0kN hmin= 0.068 act= 2 nu=    0.00 gap= 1.4um wall= 118s
+self__full t= 26.00s [ 8] slew back                      err=0.0839 soil=    0kg F=  0.0kN hmin= 0.068 act= 2 nu=    0.19 gap= 1.4um wall= 127s
+self__full t= 28.00s [ 8] slew back                      err=0.2470 soil=    0kg F=  0.0kN hmin= 0.019 act= 3 nu=   37.63 gap= 1.4um wall= 137s
+self__full t= 30.00s [ 8] slew back                      err=0.0002 soil=    0kg F=  0.0kN hmin= 0.059 act= 0 nu=    0.00 gap= 1.4um wall= 148s
+Saved <RCX_TAC>/results/komatsu/hazards/self__full  status=COMPLETED  violated=none  wall=157s
+  class h_min: {'efence': 0.1152, 'joint_limit': 1.162, 'self_collision': 0.0671, 'stroke': 0.0174}
+  class psi1_min: {'efence': 0.6895, 'joint_limit': 9.2928, 'self_collision': 0.3933, 'stroke': 0.1319}
+  class sample-mean row function min: {'efence': 10.939, 'joint_limit': 185.847, 'self_collision': 5.771, 'stroke': 2.6}
+  tracking RMS: [0.0259 0.01   0.0292 0.0469 0.0601 0.0087]  interventions: 0.337  infeasible: 0  velocity relaxed: 0  storage max: 48.4  standoff max: 0.1198
+  assumptions: force-model coverage 1.0 (during intervention 1.0 ) row-residual coverage 1.0 max 0.11  load coverage 1.0 (during intervention 1.0 ) late rows 0  psi2 after active min 5.762
+  storage energy J: {'effort_mismatch': (945.5, -130.0), 'command_deviation': (83.5, -0.0), 'barrier_rows': (81.8, -0.0), 'effort_bounds': (1.7, 0.0)} dissipated 2086.2  ledger residual 4.5 J (relative 0.0022 )

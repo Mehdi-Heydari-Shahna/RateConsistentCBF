@@ -1,0 +1,3 @@
+# The code checks SHA-256 hashes of its sources (bench/world.py, code_hash) against the logged results.
+# Turn off end-of-line conversion for every file, so that each platform checks out exactly the committed bytes.
+* -text

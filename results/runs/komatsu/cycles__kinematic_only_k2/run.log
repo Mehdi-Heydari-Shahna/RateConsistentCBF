@@ -1,0 +1,29 @@
+cycles__kinematic_only_k2 t=  0.00s [ 0] hold                           err=0.0000 soil=    0kg F=  0.0kN hmin= 0.035 act= 0 nu=    0.00 gap= 0.0um wall=   1s
+cycles__kinematic_only_k2 t=  2.00s [ 1] to pose A                      err=0.0002 soil=    0kg F=  0.0kN hmin= 0.036 act= 0 nu=    0.08 gap= 1.4um wall=   9s
+cycles__kinematic_only_k2 t=  4.00s [ 1] to pose A                      err=0.0023 soil=    0kg F=  0.0kN hmin= 0.066 act= 0 nu=    0.42 gap= 1.5um wall=  18s
+cycles__kinematic_only_k2 t=  6.00s [ 1] to pose A                      err=0.0024 soil=    0kg F=  0.0kN hmin= 0.070 act= 0 nu=    0.33 gap= 1.6um wall=  26s
+cycles__kinematic_only_k2 t=  8.00s [ 1] to pose A                      err=0.0005 soil=    0kg F=  0.0kN hmin= 0.070 act= 0 nu=    0.04 gap= 1.7um wall=  35s
+cycles__kinematic_only_k2 t= 10.00s [ 2] cycle 1: go                    err=0.1443 soil=    0kg F=  0.0kN hmin= 0.001 act= 0 nu=    1.10 gap= 1.6um wall=  43s
+cycles__kinematic_only_k2 t= 12.00s [ 4] cycle 1: back                  err=0.1495 soil=    0kg F=  0.0kN hmin= 0.004 act= 0 nu=   45.36 gap= 1.6um wall=  51s
+cycles__kinematic_only_k2 t= 14.00s [ 4] cycle 1: back                  err=0.0007 soil=    0kg F=  0.0kN hmin= 0.070 act= 0 nu=    1.09 gap= 1.9um wall=  59s
+cycles__kinematic_only_k2 t= 16.00s [ 5] cycle 2: go                    err=0.1988 soil=    0kg F=  0.0kN hmin= 0.004 act= 0 nu=   60.08 gap= 1.6um wall=  68s
+cycles__kinematic_only_k2 t= 18.00s [ 7] cycle 2: back                  err=0.0924 soil=    0kg F=  0.0kN hmin= 0.004 act= 0 nu=   39.96 gap= 1.6um wall=  77s
+cycles__kinematic_only_k2 t= 20.00s [ 8] cycle 3: go                    err=0.0003 soil=    0kg F=  0.0kN hmin= 0.070 act= 0 nu=    0.01 gap= 1.9um wall=  85s
+cycles__kinematic_only_k2 t= 22.00s [ 9] cycle 3: hold                  err=0.2103 soil=    0kg F=  0.0kN hmin= 0.005 act= 0 nu=   58.18 gap= 1.7um wall=  93s
+cycles__kinematic_only_k2 t= 24.00s [10] cycle 3: back                  err=0.0229 soil=    0kg F=  0.0kN hmin= 0.004 act= 0 nu=   19.21 gap= 1.6um wall= 101s
+cycles__kinematic_only_k2 t= 26.00s [11] cycle 4: go                    err=0.0006 soil=    0kg F=  0.0kN hmin= 0.070 act= 0 nu=    2.47 gap= 2.4um wall= 110s
+cycles__kinematic_only_k2 t= 28.00s [12] cycle 4: hold                  err=0.2084 soil=    0kg F=  0.0kN hmin= 0.004 act= 0 nu=   14.51 gap= 1.6um wall= 118s
+cycles__kinematic_only_k2 t= 30.00s [13] cycle 4: back                  err=0.0039 soil=    0kg F=  0.0kN hmin= 0.022 act= 0 nu=   54.10 gap= 1.7um wall= 126s
+cycles__kinematic_only_k2 t= 32.00s [14] cycle 5: go                    err=0.0006 soil=    0kg F=  0.0kN hmin= 0.047 act= 0 nu=    0.40 gap= 2.5um wall= 135s
+cycles__kinematic_only_k2 t= 34.00s [16] cycle 5: back                  err=0.2068 soil=    0kg F=  0.0kN hmin= 0.004 act= 0 nu=    5.65 gap= 1.5um wall= 143s
+cycles__kinematic_only_k2 t= 36.00s [16] cycle 5: back                  err=0.0015 soil=    0kg F=  0.0kN hmin= 0.049 act= 0 nu=    6.74 gap= 2.1um wall= 151s
+cycles__kinematic_only_k2 t= 38.00s [17] cycle 6: go                    err=0.0037 soil=    0kg F=  0.0kN hmin= 0.008 act= 0 nu=  640.95 gap= 0.7um wall= 160s
+cycles__kinematic_only_k2 t= 40.00s [19] cycle 6: back                  err=0.2003 soil=    0kg F=  0.0kN hmin= 0.004 act= 0 nu=   17.09 gap= 1.6um wall= 168s
+cycles__kinematic_only_k2 t= 42.00s [19] cycle 6: back                  err=0.0011 soil=    0kg F=  0.0kN hmin= 0.069 act= 0 nu=    2.00 gap= 2.0um wall= 176s
+Saved <RCX_TAC>/results/komatsu/hazards/cycles__kinematic_only_k2  status=COMPLETED  violated=['p3', 'p4']  wall=183s
+  class h_min: {'joint_limit': 0.8827, 'self_collision': 1.2758, 'stroke': -0.0004}
+  class psi1_min: {'joint_limit': 7.0514, 'self_collision': 7.6538, 'stroke': -0.0262}
+  class sample-mean row function min: {'joint_limit': 140.833, 'self_collision': 121.591, 'stroke': -0.977}
+  tracking RMS: [0.000e+00 1.087e-01 4.000e-04 9.000e-04 2.000e-04 1.000e-04]  interventions: 0.0  infeasible: 0  velocity relaxed: 0  storage max: 650.3  standoff max: 0.0
+  assumptions: force-model coverage 0.9986 (during intervention None ) row-residual coverage None max 0.0  load coverage 1.0 (during intervention None ) late rows 0  psi2 after active min inf
+  storage energy J: {'effort_mismatch': (4086.8, -4291.1), 'command_deviation': (0.0, 0.0), 'barrier_rows': (0.0, 0.0), 'effort_bounds': (0.0, 0.0)} dissipated 7299.9  ledger residual -2.5 J (relative 0.0003 )

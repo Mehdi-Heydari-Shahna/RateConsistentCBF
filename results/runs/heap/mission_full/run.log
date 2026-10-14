@@ -1,0 +1,45 @@
+mission_full t=  0.00s [ 0] settle                         err=0.0000 soil=    0kg F=  0.0kN hmin= 0.036 act= 0 nu=    0.00 gap= 0.0um wall=   0s
+mission_full t= 10.00s [ 2] level1: lane 1/3 lower rake    err=0.0048 soil=    0kg F=  0.0kN hmin= 0.140 act= 0 nu=    0.65 gap= 2.1um wall=  83s
+mission_full t= 20.00s [ 4] level1: lane 1/3 curl collecte err=0.0039 soil=    8kg F=  0.0kN hmin= 0.140 act= 0 nu=    3.84 gap= 2.1um wall= 179s
+mission_full t= 30.00s [ 6] level1: lane 1/3 pour collecte err=0.0045 soil=    0kg F=  0.0kN hmin= 0.138 act= 0 nu=    0.47 gap= 2.1um wall= 264s
+mission_full t= 40.00s [ 9] level1: lane 2/3 rake pass     err=0.0017 soil=    0kg F=  0.0kN hmin= 0.170 act= 0 nu=    0.11 gap= 2.1um wall= 347s
+mission_full t= 50.00s [11] level1: lane 2/3 carry collect err=0.0010 soil=   32kg F=  0.0kN hmin= 0.082 act= 0 nu=    0.05 gap= 2.1um wall= 441s
+mission_full t= 60.00s [13] level1: lane 3/3 reach far edg err=0.0038 soil=    0kg F=  0.0kN hmin= 0.170 act= 0 nu=    0.42 gap= 2.2um wall= 526s
+mission_full t= 70.00s [15] level1: lane 3/3 rake pass     err=0.0011 soil=   15kg F=  0.0kN hmin= 0.170 act= 0 nu=    0.05 gap= 2.2um wall= 613s
+mission_full t= 80.00s [17] level1: lane 3/3 carry collect err=0.0005 soil=    0kg F=  0.0kN hmin= 0.054 act= 0 nu=    0.01 gap= 1.9um wall= 701s
+mission_full t= 90.00s [19] level1: retract to transport   err=0.0003 soil=    0kg F=  0.0kN hmin= 0.164 act= 0 nu=    0.02 gap= 1.9um wall= 784s
+mission_full t=100.00s [21] dig1: slew to dig area         err=0.0006 soil=    0kg F=  0.0kN hmin= 0.036 act= 0 nu=    0.09 gap= 1.6um wall= 867s
+mission_full t=110.00s [24] dig1: penetrate                err=0.0016 soil=    0kg F=  0.0kN hmin= 0.242 act= 0 nu=    0.80 gap= 2.0um wall= 949s
+mission_full t=120.00s [26] dig1: curl                     err=0.0658 soil=  339kg F=  3.4kN hmin= 0.267 act= 0 nu=   45.47 gap= 2.1um wall=1051s
+mission_full t=130.00s [27] dig1: lift clear               err=0.0015 soil=  169kg F=  0.0kN hmin= 0.036 act= 0 nu=    0.36 gap= 1.7um wall=1143s
+mission_full t=140.00s [30] dig1: position over site       err=0.0023 soil=  169kg F=  0.0kN hmin= 0.034 act= 0 nu=    0.19 gap= 1.8um wall=1226s
+mission_full t=150.00s [33] dig1: lift from site           err=0.0028 soil=    0kg F=  0.0kN hmin= 0.225 act= 0 nu=    0.19 gap= 2.3um wall=1309s
+mission_full t=160.00s [35] level2: lane 1/3 reach far edg err=0.0019 soil=    0kg F=  0.0kN hmin= 0.061 act= 0 nu=    0.28 gap= 1.7um wall=1392s
+mission_full t=170.00s [37] level2: lane 1/3 rake pass     err=0.0012 soil=    2kg F=  0.2kN hmin= 0.170 act= 0 nu=    0.10 gap= 2.2um wall=1478s
+mission_full t=180.00s [39] level2: lane 1/3 carry collect err=0.0006 soil=    5kg F=  0.0kN hmin= 0.065 act= 0 nu=    0.02 gap= 2.1um wall=1571s
+mission_full t=190.00s [41] level2: lane 2/3 reach far edg err=0.0004 soil=    0kg F=  0.0kN hmin= 0.153 act= 0 nu=    0.03 gap= 2.2um wall=1653s
+mission_full t=200.00s [44] level2: lane 2/3 curl collecte err=0.0042 soil=   27kg F=  0.0kN hmin= 0.170 act= 0 nu=    0.95 gap= 2.2um wall=1741s
+mission_full t=210.00s [46] level2: lane 2/3 pour collecte err=0.0023 soil=    2kg F=  0.0kN hmin= 0.055 act= 0 nu=    0.56 gap= 2.1um wall=1829s
+mission_full t=220.00s [49] level2: lane 3/3 rake pass     err=0.0018 soil=    0kg F=  0.0kN hmin= 0.155 act= 0 nu=    0.91 gap= 2.3um wall=1912s
+mission_full t=230.00s [51] level2: lane 3/3 carry collect err=0.0008 soil=    0kg F=  0.0kN hmin= 0.086 act= 0 nu=    0.11 gap= 2.1um wall=1998s
+mission_full t=240.00s [53] level2: retract to transport   err=0.0053 soil=    0kg F=  0.0kN hmin= 0.170 act= 0 nu=    0.75 gap= 2.2um wall=2080s
+mission_full t=250.00s [54] level2: settle                 err=0.0029 soil=    0kg F=  0.0kN hmin= 0.036 act= 0 nu=    0.33 gap= 1.6um wall=2163s
+mission_full t=260.00s [56] dig2: reach out                err=0.0020 soil=    0kg F=  0.0kN hmin= 0.314 act= 0 nu=    0.09 gap= 1.9um wall=2244s
+mission_full t=270.00s [59] dig2: drag at depth            err=0.0488 soil=   64kg F=  0.6kN hmin= 0.221 act= 2 nu=    4.45 gap= 2.0um wall=2336s
+mission_full t=280.00s [61] dig2: lift clear               err=0.0032 soil=  290kg F=  0.0kN hmin= 0.043 act= 0 nu=    0.98 gap= 2.0um wall=2436s
+mission_full t=290.00s [63] dig2: slew to site             err=0.0021 soil=  290kg F=  0.0kN hmin= 0.036 act= 0 nu=    0.49 gap= 1.7um wall=2521s
+mission_full t=300.00s [65] dig2: dump                     err=0.0073 soil=    0kg F=  0.0kN hmin= 0.259 act= 0 nu=    0.67 gap= 2.2um wall=2608s
+mission_full t=310.00s [68] dig2: retract to transport     err=0.0007 soil=    0kg F=  0.0kN hmin= 0.145 act= 0 nu=    0.04 gap= 2.0um wall=2687s
+mission_full t=320.00s [70] level3: lane 1/3 lower rake    err=0.0049 soil=    0kg F=  0.0kN hmin= 0.138 act= 0 nu=    0.69 gap= 2.1um wall=2771s
+mission_full t=330.00s [72] level3: lane 1/3 curl collecte err=0.0059 soil=   91kg F=  0.0kN hmin= 0.146 act= 0 nu=    0.61 gap= 2.2um wall=2861s
+mission_full t=340.00s [74] level3: lane 1/3 pour collecte err=0.0024 soil=    0kg F=  0.0kN hmin= 0.170 act= 0 nu=    0.43 gap= 2.3um wall=2945s
+mission_full t=350.00s [77] level3: lane 2/3 rake pass     err=0.0021 soil=    0kg F=  0.0kN hmin= 0.170 act= 0 nu=    0.19 gap= 2.1um wall=3028s
+mission_full t=360.00s [79] level3: lane 2/3 carry collect err=0.0007 soil=   21kg F=  0.0kN hmin= 0.079 act= 0 nu=    0.14 gap= 2.2um wall=3118s
+mission_full t=370.00s [81] level3: lane 3/3 reach far edg err=0.0006 soil=    0kg F=  0.0kN hmin= 0.170 act= 0 nu=    0.07 gap= 2.2um wall=3200s
+mission_full t=380.00s [83] level3: lane 3/3 rake pass     err=0.0012 soil=    0kg F=  0.0kN hmin= 0.170 act= 0 nu=    0.04 gap= 2.2um wall=3283s
+mission_full t=390.00s [86] level3: lane 3/3 pour collecte err=0.0033 soil=    0kg F=  0.0kN hmin= 0.082 act= 0 nu=    0.76 gap= 2.1um wall=3370s
+mission_full t=400.00s [87] level3: retract to transport   err=0.0013 soil=    0kg F=  0.0kN hmin= 0.074 act= 0 nu=    0.05 gap= 1.7um wall=3451s
+Saved <RCX_TAC>/results/heap/mission_full  status=COMPLETED  phases 90/90  failures=[]  violated=none  sim=406.0s  wall=3502s
+  digs: [(1, 169), (2, 290)]  safety holds: 0
+  class h_min: {'efence': 0.2693, 'joint_limit': 0.2522, 'self_collision': 0.2987, 'stroke': 0.032, 'support': 0.5629, 'utility': 0.2079}
+  assumptions: force-model 1.0 (intervention 0.9984 ) row residual 1.0  load 0.9998  infeasible 0  holds: []

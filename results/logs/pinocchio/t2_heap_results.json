@@ -1,0 +1,14 @@
+{
+ "machine": "heap",
+ "states": 4,
+ "commanded_coordinates": 13,
+ "channels": 19,
+ "rows": 715,
+ "cut_joints": 10,
+ "largest_relative_errors": {
+  "a": 1.2423971811030178e-10,
+  "b": 2.671839376248553e-09,
+  "c": 1.7478323838365977e-10,
+  "d": 4.320692930069241e-12
+ }
+}

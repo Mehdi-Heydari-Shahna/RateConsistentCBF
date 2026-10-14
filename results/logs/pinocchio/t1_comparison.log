@@ -1,0 +1,6 @@
+instances 40000, feasible with cond(H) <= 1e6: 29467; active rows histogram [5673, 9831, 7166, 4203, 1719, 556, 215, 104]; left out for cond(H) > 1e6: 70 (there: (T) -0.00e+00, (F) 6.22e-09; largest relative residual of C H^-1 C^T = M 2.8e-08)
+(T) largest  P_f - bound  (relative): 4.108e-15   (must be <= 0 up to round-off)
+(F) largest  P_f - fine bound (relative): 1.391e-11
+(E) largest relative error of the exact identity: 2.211e-10
+    (F) and (E) are evaluated on the counted instances without effort bounds: 20421 of 29467 (16409 of them with a binding row); the 9046 counted instances with effort bounds enter (T) only
+    instances without effort bounds and with binding rows whose normalised Gram matrix has a condition number below 1e4: 16335:  (F) 1.391e-11   (E) 1.457e-10;   largest condition number met 1.41e+06

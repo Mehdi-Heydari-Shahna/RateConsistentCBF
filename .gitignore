@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Excavator model packages: supplied separately, never committed
+/code/excavators/RCX_TAC/machines/*/
+RateConsistentCBF_excavator_models/
+
+# Outputs of new runs (the logged results of the paper are in results/)
+/code/excavators/RCX_TAC/results/
+/code/pinocchio/num/*.log
+/code/pinocchio/num/*_results.json
+/code/pinocchio/num/*.npz
+/code/pinocchio/checks/*.log
+/code/pinocchio/checks/*.json
+/code/pinocchio/onedof_sweep/*.log
+/code/pinocchio/onedof_sweep/*.json
+/check/
+MUJOCO_LOG.TXT

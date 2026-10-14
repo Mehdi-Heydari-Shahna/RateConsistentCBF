@@ -1,0 +1,12 @@
+# Table V: dig-and-level missions (soil model, digging, loading, levelling); full = baseline, consistent = proposed
+metric,komatsu_full,komatsu_consistent,heap_full,heap_consistent,paper_komatsu_full,paper_komatsu_consistent,paper_heap_full,paper_heap_consistent
+Duration T (s),397.16,397.16,406,406,397,397,406,406
+Largest storage S_max (J),118.823547,84.0989609,90.2648087,57.4148636,118.8,84.1,90.3,57.4
+Port energy (J),556.913525,95.0257973,190.758024,20.9783606,556.9,95.0,190.8,21.0
+Feedforward energy (J),1678.7195,129.668772,513.242759,129.727869,1679,130,513,130
+Force-loop energy (J),1606.01205,818.896896,1464.67977,1250.85205,1606,819,1465,1251
+Other energy (J),7593.38748,6148.21699,10399.2206,9965.20806,7593,6148,10399,9965
+Port share (%),4.87023996,1.32130601,1.51781926,0.184558739,4.9,1.3,1.5,0.2
+Minimum clearance (mm),35.3065169,35.3043667,31.964238,31.9610748,35.3,35.3,32.0,32.0
+Violated pairs,none,none,none,none,none,none,none,none
+Excavated volume (m^3),0.525615463,0.526910194,0.500638186,0.506716499,0.526,0.527,0.501,0.507

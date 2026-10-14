@@ -1,0 +1,31 @@
+efence__full t=  0.00s [ 0] hold                           err=0.0000 soil=    0kg F=  0.0kN hmin= 0.035 act= 0 nu=    0.00 gap= 0.0um wall=   1s
+efence__full t=  2.00s [ 1] to start                       err=0.0002 soil=    0kg F=  0.0kN hmin= 0.037 act= 0 nu=    0.01 gap= 1.4um wall=  11s
+efence__full t=  4.00s [ 1] to start                       err=0.0009 soil=    0kg F=  0.0kN hmin= 0.070 act= 0 nu=    0.03 gap= 1.5um wall=  21s
+efence__full t=  6.00s [ 1] to start                       err=0.0003 soil=    0kg F=  0.0kN hmin= 0.070 act= 0 nu=    0.01 gap= 1.7um wall=  32s
+efence__full t=  8.00s [ 2] lift into ceiling              err=0.0019 soil=    0kg F=  0.0kN hmin= 0.070 act= 0 nu=    0.45 gap= 2.0um wall=  42s
+efence__full t= 10.00s [ 3] hold high                      err=0.2069 soil=    0kg F=  0.0kN hmin= 0.070 act= 0 nu=    0.11 gap= 1.7um wall=  52s
+efence__full t= 12.00s [ 3] hold high                      err=0.2053 soil=    0kg F=  0.0kN hmin= 0.070 act= 0 nu=    0.00 gap= 1.7um wall=  62s
+efence__full t= 14.00s [ 4] back from ceiling              err=0.0006 soil=    0kg F=  0.0kN hmin= 0.070 act= 0 nu=    2.75 gap= 1.7um wall=  73s
+efence__full t= 16.00s [ 5] reach through front wall       err=0.0001 soil=    0kg F=  0.0kN hmin= 0.070 act= 0 nu=    0.02 gap= 1.7um wall=  82s
+efence__full t= 18.00s [ 5] reach through front wall       err=0.1523 soil=    0kg F=  0.0kN hmin= 0.045 act= 0 nu=   18.28 gap= 1.8um wall=  92s
+efence__full t= 20.00s [ 5] reach through front wall       err=0.4576 soil=    0kg F=  0.0kN hmin= 0.012 act= 2 nu=    0.03 gap= 1.8um wall= 103s
+efence__full t= 22.00s [ 5] reach through front wall       err=0.6748 soil=    0kg F=  0.0kN hmin= 0.011 act= 1 nu=    0.07 gap= 1.8um wall= 114s
+efence__full t= 24.00s [ 6] hold out                       err=0.6655 soil=    0kg F=  0.0kN hmin= 0.011 act= 2 nu=    0.00 gap= 1.8um wall= 124s
+efence__full t= 26.00s [ 7] back from front wall           err=0.5232 soil=    0kg F=  0.0kN hmin= 0.012 act= 1 nu=    0.21 gap= 1.9um wall= 134s
+efence__full t= 28.00s [ 7] back from front wall           err=0.0375 soil=    0kg F=  0.0kN hmin= 0.069 act= 0 nu=   20.78 gap= 1.9um wall= 144s
+efence__full t= 30.00s [ 8] slew through side wall         err=0.0448 soil=    0kg F=  0.0kN hmin= 0.069 act= 1 nu=    4.24 gap= 1.8um wall= 154s
+efence__full t= 32.00s [ 8] slew through side wall         err=0.1164 soil=    0kg F=  0.0kN hmin= 0.067 act= 0 nu=   18.24 gap= 1.8um wall= 164s
+efence__full t= 34.00s [ 8] slew through side wall         err=0.0800 soil=    0kg F=  0.0kN hmin= 0.053 act= 1 nu=    2.92 gap= 1.8um wall= 174s
+efence__full t= 36.00s [ 8] slew through side wall         err=0.1592 soil=    0kg F=  0.0kN hmin= 0.037 act= 0 nu=    0.06 gap= 1.7um wall= 184s
+efence__full t= 38.00s [ 9] hold slew                      err=0.1632 soil=    0kg F=  0.0kN hmin= 0.036 act= 0 nu=    0.00 gap= 1.7um wall= 194s
+efence__full t= 40.00s [10] slew back                      err=0.1593 soil=    0kg F=  0.0kN hmin= 0.037 act= 0 nu=    0.07 gap= 1.7um wall= 204s
+efence__full t= 42.00s [10] slew back                      err=0.0004 soil=    0kg F=  0.0kN hmin= 0.070 act= 0 nu=    7.75 gap= 1.7um wall= 214s
+efence__full t= 44.00s [10] slew back                      err=0.0000 soil=    0kg F=  0.0kN hmin= 0.070 act= 0 nu=    0.00 gap= 1.7um wall= 224s
+efence__full t= 46.00s [10] slew back                      err=0.0000 soil=    0kg F=  0.0kN hmin= 0.070 act= 0 nu=    0.00 gap= 1.7um wall= 234s
+Saved <RCX_TAC>/results/komatsu/hazards/efence__full  status=COMPLETED  violated=none  wall=239s
+  class h_min: {'efence': 0.0774, 'joint_limit': 0.463, 'self_collision': 1.2758, 'stroke': 0.0113}
+  class psi1_min: {'efence': 0.1974, 'joint_limit': 3.7034, 'self_collision': 7.6538, 'stroke': 0.0902}
+  class sample-mean row function min: {'efence': 3.254, 'joint_limit': 74.067, 'self_collision': 121.591, 'stroke': 1.804}
+  tracking RMS: [0.1705 0.0605 0.0631 0.2433 0.1385 0.1048]  interventions: 0.259  infeasible: 0  velocity relaxed: 0  storage max: 177.0  standoff max: 0.507
+  assumptions: force-model coverage 0.9996 (during intervention 1.0 ) row-residual coverage 1.0 max 0.41  load coverage 0.9954 (during intervention 0.9975 ) late rows 0  psi2 after active min 1.804
+  storage energy J: {'effort_mismatch': (1061.0, -159.9), 'command_deviation': (343.1, -2.4), 'barrier_rows': (296.2, -12.1), 'effort_bounds': (56.6, 0.0)} dissipated 4967.6  ledger residual 52.3 J (relative 0.0105 )

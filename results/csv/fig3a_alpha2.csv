@@ -1,0 +1,6 @@
+# Fig. 3(a): first-order layer, k = 12, alpha1 = 6; peak |s| over periods 3-8 and the smallest Corollary 1 bound (zs(t_a) - |s(t_a)|)/e over the onsets of periods 3-8 (sweep_alpha2.py)
+alpha2_per_s,peak_abs_s_periods_3_8,onset_bound_min,alpha2_times_peak
+8,0.163327394,0.162094278,1.30661915
+16,0.0868531932,0.0863085831,1.38965109
+32,0.0446521352,0.0442683804,1.42886833
+64,0.0226108723,0.0224262581,1.44709583

@@ -1,0 +1,49 @@
+Part 1: first-order first layer, exact feedforward;  u_n = 0.50 sin(2 pi t / 2.0) - 0.10
+  rates (6, 16):  proved  limsup |s| >= min(mbar, v_plus / (exp(alpha2 T_p) + 1)) = 5.07e-15
+    k =    12: sup |s| per period [0.0869, 0.0868, 0.0868, 0.0868, 0.0868, 0.0868];  integral of s^2 per period ['4.31e-04', '4.30e-04', '4.30e-04', '4.30e-04', '4.30e-04', '4.30e-04'];  min q +1.7e-03
+              last onset t2 = 15.3690 s (effort row binding for 0.0654 s, 1/alpha2 = 0.0625):  |s(t2)| = 0.08673 = psi1(t2) = 0.08673 >= e^(-alpha2 (t2-tb)) psi1(tb) = 0.08667;  |s(tb)| = 3.9e-07;  v = 3.9557, v/(e alpha2) = 0.09095;  max(|s(t2)|, |s(t2 - 1/alpha2)|) = 0.08673 >= zs(t2 - 1/alpha2)/(e+1) = 0.06318
+              Corollary 1 at the onsets of periods 3-8: (|s(t2)| + |s(t_a)|/e) / (zs(t_a)/e) between 1.0043 and 1.0049
+    k =    30: sup |s| per period [0.0869, 0.0869, 0.0868, 0.0868, 0.0868, 0.0868];  integral of s^2 per period ['3.52e-04', '3.52e-04', '3.52e-04', '3.52e-04', '3.52e-04', '3.52e-04'];  min q +1.6e-03
+              last onset t2 = 15.3688 s (effort row binding for 0.0654 s, 1/alpha2 = 0.0625):  |s(t2)| = 0.08675 = psi1(t2) = 0.08675 >= e^(-alpha2 (t2-tb)) psi1(tb) = 0.08675;  |s(tb)| = 7.2e-08;  v = 3.9554, v/(e alpha2) = 0.09094;  max(|s(t2)|, |s(t2 - 1/alpha2)|) = 0.08675 >= zs(t2 - 1/alpha2)/(e+1) = 0.06324
+              Corollary 1 at the onsets of periods 3-8: (|s(t2)| + |s(t_a)|/e) / (zs(t_a)/e) between 1.0040 and 1.0043
+    k =   100: sup |s| per period [0.0868, 0.0869, 0.0868, 0.0868, 0.0868, 0.0868];  integral of s^2 per period ['3.52e-04', '3.52e-04', '3.52e-04', '3.52e-04', '3.52e-04', '3.52e-04'];  min q +1.6e-03
+              last onset t2 = 15.3688 s (effort row binding for 0.0654 s, 1/alpha2 = 0.0625):  |s(t2)| = 0.08675 = psi1(t2) = 0.08675 >= e^(-alpha2 (t2-tb)) psi1(tb) = 0.08675;  |s(tb)| = 7.2e-08;  v = 3.9554, v/(e alpha2) = 0.09094;  max(|s(t2)|, |s(t2 - 1/alpha2)|) = 0.08675 >= zs(t2 - 1/alpha2)/(e+1) = 0.06324
+              Corollary 1 at the onsets of periods 3-8: (|s(t2)| + |s(t_a)|/e) / (zs(t_a)/e) between 1.0040 and 1.0043
+  rates (2, 4):  proved  limsup |s| >= min(mbar, v_plus / (exp(alpha2 T_p) + 1)) = 1.34e-04
+    k =    12: sup |s| per period [0.1723, 0.1717, 0.1714, 0.1713, 0.1713, 0.1713];  integral of s^2 per period ['5.56e-03', '5.46e-03', '5.43e-03', '5.42e-03', '5.42e-03', '5.42e-03'];  min q +6.4e-02
+              last onset t2 = 15.2534 s (effort row binding for 0.2422 s, 1/alpha2 = 0.2500):  |s(t2)| = 0.17121 = psi1(t2) = 0.17121 >= e^(-alpha2 (t2-tb)) psi1(tb) = 0.17121;  |s(tb)| = 5.8e-08;  v = 1.8050, v/(e alpha2) = 0.16601;  max(|s(t2)|, |s(t2 - 1/alpha2)|) = 0.17121 >= zs(t2 - 1/alpha2)/(e+1) = 0.12508
+              Corollary 1 at the onsets of periods 3-8: (|s(t2)| + |s(t_a)|/e) / (zs(t_a)/e) between 1.0000 and 1.0007
+    k =    30: sup |s| per period [0.1723, 0.1716, 0.1714, 0.1713, 0.1712, 0.1713];  integral of s^2 per period ['5.54e-03', '5.45e-03', '5.42e-03', '5.41e-03', '5.41e-03', '5.41e-03'];  min q +6.3e-02
+              last onset t2 = 15.2526 s (effort row binding for 0.2418 s, 1/alpha2 = 0.2500):  |s(t2)| = 0.17126 = psi1(t2) = 0.17126 >= e^(-alpha2 (t2-tb)) psi1(tb) = 0.17126;  |s(tb)| = 1.6e-07;  v = 1.8038, v/(e alpha2) = 0.16590;  max(|s(t2)|, |s(t2 - 1/alpha2)|) = 0.17126 >= zs(t2 - 1/alpha2)/(e+1) = 0.12511
+              Corollary 1 at the onsets of periods 3-8: (|s(t2)| + |s(t_a)|/e) / (zs(t_a)/e) between 1.0000 and 1.0014
+    k =   100: sup |s| per period [0.1723, 0.1716, 0.1713, 0.1712, 0.1712, 0.1712];  integral of s^2 per period ['5.54e-03', '5.45e-03', '5.42e-03', '5.41e-03', '5.41e-03', '5.41e-03'];  min q +6.3e-02
+              last onset t2 = 15.2524 s (effort row binding for 0.2420 s, 1/alpha2 = 0.2500):  |s(t2)| = 0.17116 = psi1(t2) = 0.17116 >= e^(-alpha2 (t2-tb)) psi1(tb) = 0.17116;  |s(tb)| = 1.3e-09;  v = 1.8026, v/(e alpha2) = 0.16579;  max(|s(t2)|, |s(t2 - 1/alpha2)|) = 0.17116 >= zs(t2 - 1/alpha2)/(e+1) = 0.12504
+              Corollary 1 at the onsets of periods 3-8: (|s(t2)| + |s(t_a)|/e) / (zs(t_a)/e) between 1.0000 and 1.0015
+Part 2: required velocity as a state with the row zs' + beta zs >= 0, rates (6, 16), u_r(0) = u(0)
+    k =    12, beta =   16 (<= alpha2): sup |s| per period ['0.0e+00', '0.0e+00', '0.0e+00', '0.0e+00', '0.0e+00', '0.0e+00'];  effort row binds in 0 steps, row of the first layer in 23674 of 80001;  largest correction of the effort layer 0.0e+00;  min q +1.99e-03, min zs +3.3e-06, min (zs' + beta zs) +0.0e+00
+    k =    30, beta =   16 (<= alpha2): sup |s| per period ['0.0e+00', '0.0e+00', '0.0e+00', '0.0e+00', '0.0e+00', '0.0e+00'];  effort row binds in 0 steps, row of the first layer in 23674 of 80001;  largest correction of the effort layer 0.0e+00;  min q +1.99e-03, min zs +3.3e-06, min (zs' + beta zs) +0.0e+00
+    k =   100, beta =   16 (<= alpha2): sup |s| per period ['0.0e+00', '0.0e+00', '0.0e+00', '0.0e+00', '0.0e+00', '0.0e+00'];  effort row binds in 0 steps, row of the first layer in 23674 of 80001;  largest correction of the effort layer 0.0e+00;  min q +1.99e-03, min zs +3.3e-06, min (zs' + beta zs) +0.0e+00
+    k =    12, beta =    8 (<= alpha2): sup |s| per period ['0.0e+00', '0.0e+00', '0.0e+00', '0.0e+00', '0.0e+00', '0.0e+00'];  effort row binds in 0 steps, row of the first layer in 25595 of 80001;  largest correction of the effort layer 0.0e+00;  min q +3.18e-03, min zs +1.1e-03, min (zs' + beta zs) +0.0e+00
+    k =    12, beta =   40 (>  alpha2): sup |s| per period ['5.4e-02', '5.4e-02', '5.4e-02', '5.4e-02', '5.4e-02', '5.4e-02'];  effort row binds in 3734 steps, row of the first layer in 22270 of 80001;  largest correction of the effort layer 2.1e+00;  min q +2.04e-03, min zs +3.0e-13, min (zs' + beta zs) +0.0e+00
+    k =    30, beta =   40 (>  alpha2): sup |s| per period ['5.4e-02', '5.4e-02', '5.4e-02', '5.4e-02', '5.4e-02', '5.4e-02'];  effort row binds in 23674 steps, row of the first layer in 22282 of 80001;  largest correction of the effort layer 2.8e+00;  min q +1.99e-03, min zs +3.0e-13, min (zs' + beta zs) +0.0e+00
+Part 3: conditioned required velocity, rates (6, 16), and comparison of the motions (periods 3 to 8)
+    k = 12, kappa = 20: sup |s|: first-order layer 0.0869, second-order layer 0.0e+00;  sup |q_first - q_second| = 1.81e-03 m (range of q 0.0017 to 0.2296 m);
+          conditioned 'add' (kappa = 12): sup |s| = 3.5e-10, sup |u_r - U| = 0.0869, sup |U - u| = 0.0869, effort row binds in 2305 steps, sup |q_first - q| = 2.78e-17 m, min q +1.7e-03;
+          conditioned 'kin0' (kappa = 20): sup |s| = 0.0e+00, sup |u_r - U| = 0.1001, sup |U - u| = 0.1001, effort row binds in 23567 steps, sup |q_first - q| = 2.40e-02 m, min q +1.9e-03;
+          conditioned 'none' (kappa = 20): sup |s| = 5.6e-17, sup |u_r - U| = 0.4321, sup |U - u| = 0.4321, effort row binds in 23674 steps, sup |q_first - q| = 1.81e-03 m, min q +2.0e-03;
+          'kin0', start with s(0) = -0.5: |s(t)| e^(kt) / |s(0)| in [1.00000000, 1.00000000], effort row binding in 0 of these steps
+    k = 30, kappa = 20: sup |s|: first-order layer 0.0869, second-order layer 0.0e+00;  sup |q_first - q_second| = 1.90e-03 m (range of q 0.0016 to 0.2292 m);
+          conditioned 'add' (kappa = 30): sup |s| = 3.5e-10, sup |u_r - U| = 0.0869, sup |U - u| = 0.0869, effort row binds in 25267 steps, sup |q_first - q| = 5.55e-17 m, min q +1.6e-03;
+          conditioned 'kin0' (kappa = 20): sup |s| = 0.0e+00, sup |u_r - U| = 0.1001, sup |U - u| = 0.1001, effort row binds in 23567 steps, sup |q_first - q| = 2.40e-02 m, min q +1.9e-03;
+          conditioned 'none' (kappa = 20): sup |s| = 5.6e-17, sup |u_r - U| = 0.4321, sup |U - u| = 0.4321, effort row binds in 23674 steps, sup |q_first - q| = 1.90e-03 m, min q +2.0e-03;
+          'kin0', start with s(0) = -0.5: |s(t)| e^(kt) / |s(0)| in [0.99999996, 1.00000036], effort row binding in 0 of these steps
+    k = 100, kappa = 200: sup |s|: first-order layer 0.0869, second-order layer 0.0e+00;  sup |q_first - q_second| = 2.98e-05 m (range of q 0.0016 to 0.2291 m);
+          conditioned 'add' (kappa = 100): sup |s| = 3.4e-10, sup |u_r - U| = 0.0869, sup |U - u| = 0.0869, effort row binds in 25291 steps, sup |q_first - q| = 6.94e-18 m, min q +1.6e-03;
+          conditioned 'kin0' (kappa = 200): sup |s| = 2.8e-17, sup |u_r - U| = 0.0881, sup |U - u| = 0.0881, effort row binds in 25126 steps, sup |q_first - q| = 2.56e-03 m, min q +1.6e-03;
+          conditioned 'none' (kappa = 200): sup |s| = 8.3e-17, sup |u_r - U| = 0.4344, sup |U - u| = 0.4344, effort row binds in 25145 steps, sup |q_first - q| = 2.98e-05 m, min q +1.6e-03;
+          'kin0', start with s(0) = -0.5: |s(t)| e^(kt) / |s(0)| in [0.99999994, 1.00000011], effort row binding in 0 of these steps
+    k = 400, kappa = 2000: sup |s|: first-order layer 0.0869, second-order layer 0.0e+00;  sup |q_first - q_second| = 5.22e-06 m (range of q 0.0016 to 0.2290 m);
+          conditioned 'add' (kappa = 400): sup |s| = 3.3e-10, sup |u_r - U| = 0.0869, sup |U - u| = 0.0869, effort row binds in 25303 steps, sup |q_first - q| = 0.00e+00 m, min q +1.6e-03;
+          conditioned 'kin0' (kappa = 2000): sup |s| = 1.1e-16, sup |u_r - U| = 0.0870, sup |U - u| = 0.0870, effort row binds in 25296 steps, sup |q_first - q| = 2.57e-04 m, min q +1.6e-03;
+          conditioned 'none' (kappa = 2000): sup |s| = 1.7e-16, sup |u_r - U| = 0.4344, sup |U - u| = 0.4344, effort row binds in 25302 steps, sup |q_first - q| = 5.22e-06 m, min q +1.6e-03;
+          'kin0', start with s(0) = -0.5: |s(t)| e^(kt) / |s(0)| in [1.00000000, 1.00000749], effort row binding in 40 of these steps

@@ -1,0 +1,6 @@
+instances 18917: binding gradients linearly dependent in 10291, a binding row with zero multiplier in 11560, an effort bound binding in 3710; the Caratheodory reduction removed rows in 6020
+(F) largest (P_f - bound) / max(1, |P_f|) over 283755 evaluations:  full binding set +3.49e-12,  support of the multiplier +3.49e-12,  independent carrier +3.49e-12
+    defect infinite (nothing claimed): full binding set 0, support of the multiplier 0, independent carrier 0; largest residual of the conditions of the least-distance problems 5.7e-10
+(E) identity on an independent carrier of barrier rows: 73345 evaluations, largest relative error 3.65e-03 (condition number of Lam_A there 1.5e+12; 3.60e-10 over the instances with condition number below 1e4)
+    defect functional d_A[r] for a positive right-hand side r: infinite for the full binding set in 3900 of 14669 instances, finite for the independent carrier in 14669 of 14669
+(N) support of the multipliers with its last row removed, 11958 instances: it does not carry the correction in 8152, and inequality (F) is violated in 370 of these (4.5 %); it still carries the correction in 3806 (dependent gradients), and (F) is violated in 0 of these

@@ -1,0 +1,8 @@
+komatsu: commanded coordinates 6, channels 6, rows 544, cut joints 9
+  state 0: (a) 9.0e-12  (b) 5.9e-11  (c) 9.9e-12 on 544/544 rows (100.0 %)  (d) 2.1e-13
+  state 1: (a) 3.4e-11  (b) 2.1e-10  (c) 6.4e-11 on 544/544 rows (100.0 %)  (d) 4.7e-13
+  state 2: (a) 4.4e-12  (b) 4.8e-12  (c) 1.1e-11 on 544/544 rows (100.0 %)  (d) 1.7e-13
+  state 3: (a) 1.1e-11  (b) 2.3e-11  (c) 2.0e-11 on 544/544 rows (100.0 %)  (d) 9.5e-14
+  state 4: (a) 1.7e-11  (b) 6.7e-10  (c) 2.2e-11 on 544/544 rows (100.0 %)  (d) 8.3e-13
+  state 5: (a) 2.1e-11  (b) 6.5e-11  (c) 9.0e-12 on 544/544 rows (100.0 %)  (d) 3.4e-13
+largest relative errors: {'a': '3.36e-11', 'b': '6.68e-10', 'c': '6.44e-11', 'd': '8.29e-13'}

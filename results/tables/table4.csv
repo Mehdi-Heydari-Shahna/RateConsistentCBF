@@ -1,0 +1,6 @@
+# Table IV: further scenarios whose references violate the limits
+machine,scenario,S_max_base,S_max_prop,E_port_base,E_port_prop,clearance_mm_base,clearance_mm_prop,rms_mrad_base,rms_mrad_prop,paper_0,paper_1,paper_2,paper_3,paper_4,paper_5,paper_6,paper_7,violated_base,violated_prop
+komatsu,efence,177.018684,22.3717103,343.116877,1.81878437,77.3617556,76.7478553,243.273489,241.920109,177,22.4,343,1.82,77.4,76.7,243.3,241.9,none,none
+komatsu,self,48.3977206,22.5266214,83.5216567,5.89035028,67.0728429,66.9524778,60.1099913,58.1567881,48.4,22.5,83.5,5.89,67.1,67.0,60.1,58.2,none,none
+heap,efence,337.435187,74.0309358,31.0183227,0.175902576,100.902352,100.722102,269.174931,268.674144,337,74.0,31.0,0.176,100.9,100.7,269.2,268.7,none,none
+heap,self,36.804402,6.75597845,31.8209018,0.800481449,93.1504575,92.4573999,107.224345,106.621232,36.8,6.76,31.8,0.800,93.2,92.5,107.2,106.6,none,none

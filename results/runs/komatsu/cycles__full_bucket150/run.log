@@ -1,0 +1,29 @@
+cycles__full_bucket150 t=  0.00s [ 0] hold                           err=0.0000 soil=    0kg F=  0.0kN hmin= 0.035 act= 0 nu=    0.00 gap= 0.0um wall=   1s
+cycles__full_bucket150 t=  2.00s [ 1] to pose A                      err=0.0003 soil=    0kg F=  0.0kN hmin= 0.036 act= 0 nu=    0.02 gap= 1.5um wall=   9s
+cycles__full_bucket150 t=  4.00s [ 1] to pose A                      err=0.0020 soil=    0kg F=  0.0kN hmin= 0.066 act= 0 nu=    0.27 gap= 1.7um wall=  18s
+cycles__full_bucket150 t=  6.00s [ 1] to pose A                      err=0.0039 soil=    0kg F=  0.0kN hmin= 0.070 act= 0 nu=    0.56 gap= 1.8um wall=  27s
+cycles__full_bucket150 t=  8.00s [ 1] to pose A                      err=0.0010 soil=    0kg F=  0.0kN hmin= 0.070 act= 0 nu=    0.04 gap= 1.8um wall=  36s
+cycles__full_bucket150 t= 10.00s [ 2] cycle 1: go                    err=0.1507 soil=    0kg F=  0.0kN hmin= 0.004 act= 0 nu=    9.57 gap= 1.7um wall=  45s
+cycles__full_bucket150 t= 12.00s [ 4] cycle 1: back                  err=0.1469 soil=    0kg F=  0.0kN hmin= 0.003 act= 0 nu=    1.71 gap= 1.8um wall=  53s
+cycles__full_bucket150 t= 14.00s [ 4] cycle 1: back                  err=0.0008 soil=    0kg F=  0.0kN hmin= 0.070 act= 0 nu=    0.05 gap= 2.1um wall=  62s
+cycles__full_bucket150 t= 16.00s [ 5] cycle 2: go                    err=0.1985 soil=    0kg F=  0.0kN hmin= 0.004 act= 0 nu=    9.26 gap= 1.8um wall=  70s
+cycles__full_bucket150 t= 18.00s [ 7] cycle 2: back                  err=0.0894 soil=    0kg F=  0.0kN hmin= 0.003 act= 0 nu=    0.72 gap= 1.8um wall=  78s
+cycles__full_bucket150 t= 20.00s [ 8] cycle 3: go                    err=0.0005 soil=    0kg F=  0.0kN hmin= 0.070 act= 0 nu=    0.62 gap= 2.1um wall=  87s
+cycles__full_bucket150 t= 22.00s [ 9] cycle 3: hold                  err=0.2067 soil=    0kg F=  0.0kN hmin= 0.003 act= 1 nu=    0.36 gap= 1.8um wall=  95s
+cycles__full_bucket150 t= 24.00s [10] cycle 3: back                  err=0.0204 soil=    0kg F=  0.0kN hmin= 0.003 act= 0 nu=    0.04 gap= 1.8um wall= 103s
+cycles__full_bucket150 t= 26.00s [11] cycle 4: go                    err=0.0004 soil=    0kg F=  0.0kN hmin= 0.070 act= 0 nu=    0.49 gap= 2.6um wall= 112s
+cycles__full_bucket150 t= 28.00s [12] cycle 4: hold                  err=0.2058 soil=    0kg F=  0.0kN hmin= 0.003 act= 0 nu=    0.01 gap= 1.7um wall= 120s
+cycles__full_bucket150 t= 30.00s [13] cycle 4: back                  err=0.0019 soil=    0kg F=  0.0kN hmin= 0.023 act= 0 nu=    2.11 gap= 2.0um wall= 128s
+cycles__full_bucket150 t= 32.00s [14] cycle 5: go                    err=0.0006 soil=    0kg F=  0.0kN hmin= 0.047 act= 0 nu=    0.05 gap= 2.7um wall= 136s
+cycles__full_bucket150 t= 34.00s [16] cycle 5: back                  err=0.2056 soil=    0kg F=  0.0kN hmin= 0.003 act= 0 nu=    0.07 gap= 1.7um wall= 144s
+cycles__full_bucket150 t= 36.00s [16] cycle 5: back                  err=0.0010 soil=    0kg F=  0.0kN hmin= 0.050 act= 0 nu=    0.55 gap= 2.2um wall= 153s
+cycles__full_bucket150 t= 38.00s [17] cycle 6: go                    err=0.0141 soil=    0kg F=  0.0kN hmin= 0.012 act= 1 nu=  105.28 gap= 0.4um wall= 161s
+cycles__full_bucket150 t= 40.00s [19] cycle 6: back                  err=0.1992 soil=    0kg F=  0.0kN hmin= 0.003 act= 0 nu=    1.43 gap= 1.8um wall= 169s
+cycles__full_bucket150 t= 42.00s [19] cycle 6: back                  err=0.0011 soil=    0kg F=  0.0kN hmin= 0.070 act= 0 nu=    0.17 gap= 2.2um wall= 177s
+Saved <RCX_TAC>/results/komatsu/hazards/cycles__full_bucket150  status=COMPLETED  violated=none  wall=184s
+  class h_min: {'joint_limit': 0.8718, 'self_collision': 1.269, 'stroke': 0.003}
+  class psi1_min: {'joint_limit': 6.8785, 'self_collision': 7.5862, 'stroke': 0.0242}
+  class sample-mean row function min: {'joint_limit': 135.812, 'self_collision': 120.351, 'stroke': 0.456}
+  tracking RMS: [0.000e+00 1.083e-01 1.700e-03 2.800e-03 5.000e-04 1.000e-04]  interventions: 0.065  infeasible: 0  velocity relaxed: 0  storage max: 453.6  standoff max: 0.0032
+  assumptions: force-model coverage 0.9958 (during intervention 1.0 ) row-residual coverage 1.0 max 0.03  load coverage 1.0 (during intervention 1.0 ) late rows 0  psi2 after active min 0.454
+  storage energy J: {'effort_mismatch': (6122.6, -1728.4), 'command_deviation': (2029.3, -0.3), 'barrier_rows': (2029.3, -0.3), 'effort_bounds': (0.0, 0.0)} dissipated 8447.7  ledger residual 23.5 J (relative 0.0028 )

@@ -1,0 +1,31 @@
+{
+ "counts": {
+  "inst": 18917,
+  "dep": 10291,
+  "zero_mu": 11560,
+  "bounds": 3710,
+  "evals": 283755,
+  "E": 73345,
+  "noncarrier_fail": 370,
+  "noncarrier": 8152,
+  "dAb_inf": 3900,
+  "dind_fin": 14669,
+  "tests_fin": 14669,
+  "reduced": 6020,
+  "inf_F_Ab": 0,
+  "inf_F_supp": 0,
+  "sub": 11958,
+  "sub_carrier": 3806,
+  "sub_carrier_fail": 0
+ },
+ "worst": {
+  "F_Ab": 3.485887164038188e-12,
+  "F_supp": 3.485887164038188e-12,
+  "F_ind": 3.485887164038188e-12,
+  "E": 0.0036538417560267322,
+  "E_cond": 1455017083020.7632,
+  "E_wc": 3.6028747891933485e-10,
+  "ldp": 5.663230804388168e-10
+ },
+ "port_b_largest_relative_excess": 3.485887164038188e-12
+}

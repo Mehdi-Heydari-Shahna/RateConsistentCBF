@@ -1,0 +1,34 @@
+cycles__force_only t=  0.00s [ 0] hold                           err=0.0000 soil=    0kg F=  0.0kN hmin= 0.036 act= 0 nu=    0.00 gap= 0.0um wall=   0s
+cycles__force_only t=  2.00s [ 1] to pose A                      err=0.0052 soil=    0kg F=  0.0kN hmin= 0.041 act= 0 nu=    1.55 gap= 1.8um wall=  13s
+cycles__force_only t=  4.00s [ 1] to pose A                      err=0.0023 soil=    0kg F=  0.0kN hmin= 0.189 act= 0 nu=    0.30 gap= 2.0um wall=  26s
+cycles__force_only t=  6.00s [ 2] cycle 1: go                    err=0.0648 soil=    0kg F=  0.0kN hmin= 0.025 act= 1 nu= 2910.31 gap= 1.7um wall=  39s
+cycles__force_only t=  8.00s [ 4] cycle 1: back                  err=0.2403 soil=    0kg F=  0.0kN hmin= 0.020 act= 2 nu=14413.63 gap= 1.7um wall=  52s
+cycles__force_only t= 10.00s [ 4] cycle 1: back                  err=0.0080 soil=    0kg F=  0.0kN hmin= 0.090 act= 0 nu=  236.14 gap= 2.7um wall=  66s
+cycles__force_only t= 12.00s [ 5] cycle 2: go                    err=0.0020 soil=    0kg F=  0.0kN hmin= 0.173 act= 0 nu=    1.45 gap= 3.1um wall=  79s
+cycles__force_only t= 14.00s [ 5] cycle 2: go                    err=0.2296 soil=    0kg F=  0.0kN hmin= 0.022 act= 2 nu=18489.18 gap= 0.6um wall=  92s
+cycles__force_only t= 16.00s [ 7] cycle 2: back                  err=0.1219 soil=    0kg F=  0.0kN hmin= 0.021 act= 1 nu= 2954.67 gap= 1.4um wall= 105s
+cycles__force_only t= 18.00s [ 7] cycle 2: back                  err=0.0035 soil=    0kg F=  0.0kN hmin= 0.168 act= 0 nu=    3.84 gap= 2.7um wall= 118s
+cycles__force_only t= 20.00s [ 8] cycle 3: go                    err=0.0109 soil=    0kg F=  0.0kN hmin= 0.037 act= 1 nu=  213.37 gap= 2.3um wall= 131s
+cycles__force_only t= 22.00s [10] cycle 3: back                  err=0.2435 soil=    0kg F=  0.0kN hmin= 0.020 act= 2 nu=14458.97 gap= 1.7um wall= 144s
+cycles__force_only t= 24.00s [10] cycle 3: back                  err=0.0174 soil=    0kg F=  0.0kN hmin= 0.071 act= 0 nu=    2.81 gap= 2.5um wall= 156s
+cycles__force_only t= 26.00s [11] cycle 4: go                    err=0.0015 soil=    0kg F=  0.0kN hmin= 0.181 act= 0 nu=    1.32 gap= 2.8um wall= 169s
+cycles__force_only t= 28.00s [11] cycle 4: go                    err=0.2226 soil=    0kg F=  0.0kN hmin= 0.022 act= 2 nu=17466.03 gap= 1.7um wall= 182s
+cycles__force_only t= 30.00s [13] cycle 4: back                  err=0.1871 soil=    0kg F=  0.0kN hmin= 0.021 act= 2 nu= 6216.88 gap= 1.5um wall= 195s
+cycles__force_only t= 32.00s [13] cycle 4: back                  err=0.0054 soil=    0kg F=  0.0kN hmin= 0.156 act= 0 nu=    8.77 gap= 2.7um wall= 208s
+cycles__force_only t= 34.00s [14] cycle 5: go                    err=0.0026 soil=    0kg F=  0.0kN hmin= 0.071 act= 0 nu=    2.08 gap= 3.5um wall= 220s
+cycles__force_only t= 36.00s [16] cycle 5: back                  err=0.2463 soil=    0kg F=  0.0kN hmin= 0.021 act= 2 nu=14671.31 gap= 1.7um wall= 233s
+cycles__force_only t= 38.00s [16] cycle 5: back                  err=0.0533 soil=    0kg F=  0.0kN hmin= 0.048 act= 0 nu=    5.76 gap= 2.2um wall= 246s
+cycles__force_only t= 40.00s [17] cycle 6: go                    err=0.0008 soil=    0kg F=  0.0kN hmin= 0.181 act= 0 nu=    0.21 gap= 2.3um wall= 258s
+cycles__force_only t= 42.00s [17] cycle 6: go                    err=0.1997 soil=    0kg F=  0.0kN hmin= 0.022 act= 1 nu=15891.04 gap= 1.7um wall= 271s
+cycles__force_only t= 44.00s [19] cycle 6: back                  err=0.2227 soil=    0kg F=  0.0kN hmin= 0.020 act= 2 nu=10794.91 gap= 0.6um wall= 284s
+cycles__force_only t= 46.00s [19] cycle 6: back                  err=0.0078 soil=    0kg F=  0.0kN hmin= 0.140 act= 0 nu=   17.23 gap= 2.8um wall= 297s
+cycles__force_only t= 48.00s [20] hold end                       err=0.0016 soil=    0kg F=  0.0kN hmin= 0.182 act= 0 nu=    0.64 gap= 2.3um wall= 309s
+Saved <RCX_TAC>/results/heap/hazards/cycles__force_only  status=COMPLETED  violated=none  wall=310s
+  contacts ['LF', 'RF', 'LH', 'RH'] normal min (kN) [30.3 20.1 23.5  8.5] ratio max [0.38 0.34 0.24 0.23] slip max (mm) [2.8 1.  1.1 1.2] contact rows active 0.031 model error rms (kN) [[0.21, 0.32, 1.13], [0.15, 0.22, 0.36], [0.23, 0.32, 0.4], [0.36, 0.52, 0.58]]
+  class h_min: {'joint_limit': 0.0805, 'self_collision': 0.6191, 'stroke': 0.0202, 'support': 0.8891}
+  class psi1_min: {'joint_limit': 0.6433, 'self_collision': 3.6485, 'stroke': 0.158, 'support': 1.7746}
+  class sample-mean row function min: {'joint_limit': 12.739, 'self_collision': 58.154, 'stroke': 2.934, 'support': 7.095}
+  tracking RMS: [0.0376 0.0119 0.0471 0.0178 0.0647 0.0592 0.0022 0.1209 0.0722 0.1288
+ 0.0082 0.0438 0.001 ]  interventions: 0.44  infeasible: 0  velocity relaxed: 0  storage max: 19138.5  standoff max: 0.0832
+  assumptions: force-model coverage 0.9834 (during intervention 0.9808 ) row-residual coverage 1.0 max 0.67  load coverage 1.0 (during intervention 1.0 ) late rows 0  psi2 after active min 2.61
+  storage energy J: {'effort_mismatch': (5684695.1, -1591.1), 'command_deviation': (5675004.3, -0.0), 'barrier_rows': (5674953.4, 0.0), 'effort_bounds': (0.0, 0.0), 'contact_rows': (53.8, -2.9)} dissipated 5708985.6  ledger residual -250.6 J (relative 0.0 )

@@ -1,0 +1,14 @@
+{
+ "machine": "komatsu",
+ "states": 6,
+ "commanded_coordinates": 6,
+ "channels": 6,
+ "rows": 544,
+ "cut_joints": 9,
+ "largest_relative_errors": {
+  "a": 3.3554522398590054e-11,
+  "b": 6.677563796277833e-10,
+  "c": 6.440646169803732e-11,
+  "d": 8.292535516176254e-13
+ }
+}

@@ -1,0 +1,6 @@
+heap: commanded coordinates 13, channels 19, rows 715, cut joints 10
+  state 0: (a) 3.0e-11  (b) 2.7e-09  (c) 1.7e-10 on 715/715 rows (100.0 %)  (d) 8.0e-13
+  state 1: (a) 9.1e-11  (b) 2.4e-10  (c) 6.2e-11 on 715/715 rows (100.0 %)  (d) 4.3e-12
+  state 2: (a) 2.9e-11  (b) 2.7e-10  (c) 1.7e-10 on 715/715 rows (100.0 %)  (d) 7.3e-13
+  state 3: (a) 1.2e-10  (b) 3.0e-10  (c) 4.4e-11 on 715/715 rows (100.0 %)  (d) 2.4e-12
+largest relative errors: {'a': '1.24e-10', 'b': '2.67e-09', 'c': '1.75e-10', 'd': '4.32e-12'}
