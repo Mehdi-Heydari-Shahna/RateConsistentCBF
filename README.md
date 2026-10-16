@@ -4,6 +4,8 @@
 
 Mehdi Heydari Shahna · Jouni Mattila
 
+Preprint: [https://doi.org/10.21203/rs.3.rs-11381118/v1](https://doi.org/10.21203/rs.3.rs-11381118/v1)
+
 This repository is the supplementary material of the paper: the source code of every numerical result, the logged
 results of the runs behind its figures and tables, the figure trajectories as CSV files, and the comparison video.
 
@@ -186,7 +188,7 @@ missions (`4x`) of Komatsu and HEAP, with the baseline on the left and the propo
 Please cite the paper when using this work:
 
 Mehdi Heydari Shahna and Jouni Mattila. **Tracking Limitations and Rate-Consistent Safety Filtering for Constrained
-Mechanical Systems.** 2026.
+Mechanical Systems.** Preprint, Research Square, 2026. https://doi.org/10.21203/rs.3.rs-11381118/v1
 
 This work builds on RoboCompiler: Mehdi Heydari Shahna, Joongheon Kim, and Jouni Mattila. **RoboCompiler: Graph-Native
 Compilation of Closed-Chain Robots for Consistent Modeling, Control, and Simulation.** 2026.
